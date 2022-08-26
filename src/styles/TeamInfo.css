@@ -1,0 +1,9 @@
+.teamInfo {
+  text-align: center;
+  height: 50vh;
+  margin-top: 5em;
+}
+
+.teamInfo p {
+  font-size: 1.2em;
+}

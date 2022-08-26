@@ -1,0 +1,64 @@
+.about {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutTop {
+  width: 100%;
+  height: 60vh;
+  background-position: 50% 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.aboutBottom {
+  display: flex;
+  flex-direction: column;
+  height: 55%;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.aboutBottom p {
+  width: 70%;
+  text-align: center;
+}
+
+.about .aboutBottom h1 {
+  font-weight: 400;
+  font-size: 60px;
+  color: black;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-40px);
+}
+
+.aboutBottom button {
+  position: absolute;
+  top: 40%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  padding: 1em;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 1em;
+  background: white;
+}
+
+.aboutBottom button:hover {
+  cursor: pointer;
+  background: black;
+  color: white;
+}
+
+.employeeList {
+  text-align: center;
+}
+.employeeList ul {
+  list-style: none;
+}
