@@ -1,7 +1,7 @@
 import React from 'react';
 import { DepartmentList } from '../helpers/DepartmentList';
 import DepartmentItem from '../components/DepartmentItem';
-import DepartmentInfo from '../components/DepartmentInfo';
+import DepartmentInfo from './DepartmentInfo';
 import { Link } from 'react-router-dom';
 import '../styles/Departments.css';
 
@@ -13,7 +13,7 @@ function Departments() {
       <div className="departmentList">
         {DepartmentList.map((depItem, key) => {
           return (
-            <div className="departmentItem">
+            <div className="departmentItem" key={key}>
               <Link to={`/departments/${depItem.id}`} className="departmentItemLink">
                 <DepartmentItem
                   key={key}

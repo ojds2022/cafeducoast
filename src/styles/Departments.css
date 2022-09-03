@@ -22,11 +22,12 @@
 
 .departmentInfo {
   width: 100%;
-  height: auto;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background: LightGrey;
 }
 
 .departmentInfoCard {
@@ -36,6 +37,7 @@
   margin: 20px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
+  background: white;
 }
 
 .departmentInfoCard:hover {
@@ -90,13 +92,13 @@
 
 
 @media only screen and (max-width: 1300px) {
-  .menuList {
+  .departmentList {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media only screen and (max-width: 800px) {
-  .menuList {
+  .departmentList {
     grid-template-columns: 1fr;
   }
 }

@@ -9,7 +9,7 @@ function EmployeeList() {
       <div className="employees">
         {UserList.map((user, key) => {
           return (
-            <div className="employee">
+            <div className="employee" key={key}>
               <ul>
                 <li>
                  <h2>{user.name}</h2>

@@ -17,10 +17,10 @@ function Navbar() {
           <img src={Logo} />
         </Link>
         <div className="hiddenLinks">
-        <Link to="/"> Home </Link>
-        <Link to="/about"> About </Link>
-        <Link to="/contact"> Contact </Link>
-        <Link to="/add"> Update Info </Link>
+          <Link to="/"> Home </Link>
+          <Link to="/about"> About </Link>
+          <Link to="/contact"> Contact </Link>
+          <Link to="/add"> Update Info </Link>
         </div>
       </div>
       <div className="rightSide">
