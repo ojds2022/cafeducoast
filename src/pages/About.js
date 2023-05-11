@@ -1,24 +1,15 @@
 import React from 'react';
-import OfficeWorkers from '../assets/EmployeesPhoto.jpg';
-import { Link } from 'react-router-dom';
-import '../styles/About.css';
+import CoffeeBeans from '../assets/coffeeBeans.jpg';
 
 function About() {
   return (
-    <div className="about">
-      <div className="aboutTop" style={{ backgroundImage: `url(${OfficeWorkers})` }}></div>
-      <div className="aboutBottom">
-        <h1>ABOUT US</h1>
-        <p>
-          At West Code Inc., we strive to be an industry leader in all aspects that
-          benefit those who are connected to us.
-          We promise our customers stellar service, our suppliers a valuable partner,
-          our investors the prospects of sustained profitable growth, and our employees
-          the allure of huge impact.
+    <div className="h-72.5vh flex flex-col">
+      <div className="bg-cover h-60vh" style={{ backgroundImage: `url(${CoffeeBeans})` }}></div>
+      <div className="mt-2 mx-1 flex flex-col h-2/3 items-center">
+        <h1 className='text-3xl'>ABOUT US</h1>
+        <p className='text-sm text-center w-4/5'>
+          Ex enim proident occaecat voluptate dolor adipisicing non cupidatat deserunt. Eiusmod incididunt commodo labore minim occaecat dolor do anim incididunt elit ea ipsum. Aute culpa ut voluptate ullamco nulla dolore labore eiusmod veniam ut consectetur dolor duis.
         </p>
-        <Link to="/employees">
-          <button>Employees</button>
-        </Link>
       </div>
     </div>
   );
