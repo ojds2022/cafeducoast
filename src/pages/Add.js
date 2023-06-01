@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import PersonTyping from '../assets/beach.jpg';
-import '../styles/add.css';
+import '../styles/Add.css';
  
 function Add() {
   const [depName, setDepName] = useState('');
