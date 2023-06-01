@@ -11,15 +11,18 @@ module.exports = {
         "off-black": "#121619",
         "light-grey": "#d3d3d3",
       },
-      height: {
-        "60vh": "60vh",
-        "72.5vh": "72.5vh",
-        "90vh": "90vh",
-      },
-      borderWidth: {
-        '1': '1px',
-      }
     },
+    borderWidth: {
+      '1': '1px',
+    },
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+      '3xl': '2560px',
+    }
   },
   plugins: [],
 }

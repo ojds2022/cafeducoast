@@ -8,16 +8,16 @@ function DrinkInfo() {
   const { id } = useParams();
 
   return (
-    <div className="h-72.5vh flex justify-center items-center bg-light-grey">
+    <div className="flex items-center justify-center h-screen bg-light-grey">
       {MenuList.filter(drinkInfo => drinkInfo.id === id).map((drinkInfo, key) => {
         return (
-          <div className="menuInfoCard rounded-xl w-5/6 h-5/6 text-center bg-white" key={key}>
-            <h1 className='text-3xl mt-5'>{drinkInfo.name}</h1>
+          <div className="w-5/6 text-center bg-white menuInfoCard rounded-xl h-5/6" key={key}>
+            <h1 className='mt-5 text-3xl'>{drinkInfo.name}</h1>
            
             <p> 
                <Link to={`/order/${drinkInfo.id}`}>
-                  <button className='rounded p-3 bg-off-black text-bone-white mt-20 cursor-pointer hover:bg-bone-white hover:text-black'>Add to order</button>
-                </Link>
+                   <button className='p-3 mt-20 rounded cursor-pointer bg-off-black text-bone-white hover:bg-bone-white hover:text-black'>Add to order</button>
+               </Link>
             </p>
           </div>
         );

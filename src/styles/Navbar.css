@@ -1,6 +1,11 @@
 .reorderIcon svg {
   font-size: 40px;
 }
+@media screen and (min-width: 2560px) {
+  .reorderIcon svg {
+    font-size: 80px;
+  }
+}
 
 
 

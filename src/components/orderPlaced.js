@@ -7,7 +7,7 @@ function OrderPlaced() {
   }
 
   return (
-    <div className='h-72.5vh text-xl text-center'>
+    <div className='h-screen text-xl text-center'>
       <h1 className='mt-24'>Order Placed!</h1>
       <h3>Thank you!</h3>
       <p>Order Number: #{getRandNumb()}</p>
