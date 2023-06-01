@@ -1,18 +1,17 @@
 import React from 'react';
 import { MenuList } from '../helpers/menuList';
 import MenuItem from '../components/menuItem';
-import DrinkInfo from './drinkInfo';
 import { Link } from 'react-router-dom';
 import '../styles/menu.css';
 
 function Menu() {
   return (
-    <div className="menu flex flex-col items-center">
-      <h1 className="menuTitle text-6xl font-thin mt-4">Menu</h1>
-      <div className="menuList w-3/4 grid grid-cols-1 place-items-center">
+    <div className="flex flex-col items-center menu">
+      <h1 className="mt-4 text-6xl font-thin menuTitle">Menu</h1>
+      <div className="grid w-3/4 grid-cols-1 menuList place-items-center">
         {MenuList.map((menuList, key) => {
           return (
-            <div className="departmentItem cursor-pointer hover:bg-off-black text-center m-10 h-80 w-72 rounded-xl hover:text-white" key={key}>
+            <div className="m-10 text-center cursor-pointer departmentItem hover:bg-off-black h-80 w-72 rounded-xl hover:text-white" key={key}>
               <Link to={`/menu/${menuList.id}`} className="menuItemLink">
                 <MenuItem
                   key={key}
