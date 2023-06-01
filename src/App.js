@@ -7,7 +7,7 @@ import Contact from './pages/contact';
 import DrinkInfo from './pages/drinkInfo';
 import OrderPlaced from './components/orderPlaced';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import './app.css';
+import './App.css';
 
 function App() {
   return (
