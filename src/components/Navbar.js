@@ -12,7 +12,7 @@ function Navbar() {
   }
 
   return (
-    <div className="flex flex-row h-20 navbar bg-off-black 3xl:h-36">
+    <div className="fixed top-0 flex flex-row w-full h-20 navbar bg-off-black 3xl:h-36">
       {openLinks ? (
         <div>
             <Link to="/" className='fixed top-4 left-6'>

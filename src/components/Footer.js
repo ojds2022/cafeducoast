@@ -8,7 +8,7 @@ import '../styles/Footer.css';
 
 function Footer() {
   return(
-    <div className="flex flex-col items-center justify-center h-20 footer 3xl:h-36 bg-off-black">
+    <div className="fixed bottom-0 left-0 flex flex-col w-full h-20 text-center footer 3xl:h-36 bg-off-black">
       <div id="socialMedia" className="text-bone-white">
         <span className='hover:text-white'><InstagramIcon /></span>
         <span className='hover:text-white'><TwitterIcon /></span>
