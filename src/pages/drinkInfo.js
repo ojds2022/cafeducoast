@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import { MenuList } from '../helpers/menuList';
-import { Link, useLinkClickHandler } from 'react-router-dom';
+import { Link, } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import '../styles/menu.css';
 
